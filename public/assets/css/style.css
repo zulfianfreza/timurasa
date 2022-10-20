@@ -1,0 +1,46 @@
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+/* RESET */
+.table tr th,
+.table tr td {
+    padding: 15px;
+}
+
+.tr-bg-primary {
+    background-color: #c32b3a !important;
+}
+
+.tr-text-primary {
+    color: #c32b3a !important;
+}
+
+.tr-bg-login {
+    background: url(../images/bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.tr-btn-primary {
+    background-color: #c32b3a !important;
+    border-color: #c32b3a !important;
+}
+
+.tr-btn-primary:hover {
+    background-color: #ad2331 !important;
+    border-color: #ad2331 !important;
+}
+.tr-bg-gray {
+    background-color: #f3f4f6 !important;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+.table-borderless {
+    table-layout: fixed;
+}
